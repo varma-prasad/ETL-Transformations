@@ -1,0 +1,178 @@
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_Router] at [Sat Mar 09 19:19:37 2024].
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_Router] Run Instance Name: [] Run Id: [264]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: Router.
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_Router] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-09 19:19:37 : INFO : (16292 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_Router]
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [MECH]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [CSE]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [EE]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [OTHER_BRANCH]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [MECH] [instance id:4]
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [MECH] [instance id:4] determined successfully
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [CSE] [instance id:5]
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [CSE] [instance id:5] determined successfully
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [EE] [instance id:6]
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [EE] [instance id:6] determined successfully
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [OTHER_BRANCH] [instance id:7]
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [OTHER_BRANCH] [instance id:7] determined successfully
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [MECH]. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [MECH] succeeded. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [CSE]. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [CSE] succeeded. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [EE]. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [EE] succeeded. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [OTHER_BRANCH]. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [OTHER_BRANCH] succeeded. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Sat Mar 09 19:19:37 2024)
+2024-03-09 19:19:37 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-09 19:19:37 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-09 19:19:37 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-09 19:19:37 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-09 19:19:37 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-09 19:19:37 : INFO : (16292 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-09 19:19:37 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [7].
+2024-03-09 19:19:37 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table MECH :SQL INSERT statement:
+INSERT INTO MECH(ID,SEM,BRANCH)  VALUES ( ?, ?, ?) 
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [MECH]. UPDATEs Not Supported.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table CSE :SQL INSERT statement:
+INSERT INTO CSE(ID,SEM,BRANCH)  VALUES ( ?, ?, ?) 
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [CSE]. UPDATEs Not Supported.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table EE :SQL INSERT statement:
+INSERT INTO EE(ID,SEM,BRANCH)  VALUES ( ?, ?, ?) 
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [EE]. UPDATEs Not Supported.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table OTHER_BRANCH :SQL INSERT statement:
+INSERT INTO OTHER_BRANCH(ID,SEM,BRANCH)  VALUES ( ?, ?, ?) 
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [OTHER_BRANCH]. UPDATEs Not Supported.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [MECH, CSE, EE, OTHER_BRANCH]
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sat Mar 09 19:19:38 2024
+
+Target tables:
+
+     MECH
+     CSE
+     EE
+     OTHER_BRANCH
+
+
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQ_STUDENT] SQL Query [SELECT STUDENT.ID, STUDENT.SEM, STUDENT.BRANCH FROM STUDENT]
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Sat Mar 09 19:19:38 2024)
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Sat Mar 09 19:19:38 2024)
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [36] rows, read [0] error rows for source table [STUDENT] instance name [STUDENT]
+2024-03-09 19:19:38 : INFO : (16292 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [MECH] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_STUDENT]. Total errors [0] 
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [CSE] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [EE] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [OTHER_BRANCH] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [MECH] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Sat Mar 09 19:19:38 2024
+===================================================
+
+WRT_8036 Target: MECH (Instance Name: [MECH])
+WRT_8038 Inserted rows - Requested: 8          Applied: 8          Rejected: 0          Affected: 8         
+
+WRT_8036 Target: CSE (Instance Name: [CSE])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+WRT_8036 Target: EE (Instance Name: [EE])
+WRT_8038 Inserted rows - Requested: 9          Applied: 9          Rejected: 0          Affected: 9         
+
+WRT_8036 Target: OTHER_BRANCH (Instance Name: [OTHER_BRANCH])
+WRT_8038 Inserted rows - Requested: 9          Applied: 9          Rejected: 0          Affected: 9         
+
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [CSE] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [EE] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [OTHER_BRANCH] at: Sat Mar 09 19:19:38 2024
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Sat Mar 09 19:19:38 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: MECH (Instance Name: [MECH])
+WRT_8038 Inserted rows - Requested: 8          Applied: 8          Rejected: 0          Affected: 8         
+
+WRT_8036 Target: CSE (Instance Name: [CSE])
+WRT_8038 Inserted rows - Requested: 10         Applied: 10         Rejected: 0          Affected: 10        
+
+WRT_8036 Target: EE (Instance Name: [EE])
+WRT_8038 Inserted rows - Requested: 9          Applied: 9          Rejected: 0          Affected: 9         
+
+WRT_8036 Target: OTHER_BRANCH (Instance Name: [OTHER_BRANCH])
+WRT_8038 Inserted rows - Requested: 9          Applied: 9          Rejected: 0          Affected: 9         
+
+
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-09 19:19:38 : INFO : (16292 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-09 19:19:38 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_STUDENT] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_STUDENT] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [MECH, CSE, EE, OTHER_BRANCH] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-09 19:19:38 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Sat Mar 09 19:19:38 2024)
+2024-03-09 19:19:38 : INFO : (16292 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [8].
+2024-03-09 19:19:38 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Sat Mar 09 19:19:38 2024)
+2024-03-09 19:19:38 : INFO : (16292 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-09 19:19:38 : INFO : (16292 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_STUDENT] (Instance Name: [SQ_STUDENT])
+	 Output Rows [36], Affected Rows [36], Applied Rows [36], Rejected Rows [0]
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [MECH] (Instance Name: [MECH])
+	 Output Rows [8], Affected Rows [8], Applied Rows [8], Rejected Rows [0]
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [CSE] (Instance Name: [CSE])
+	 Output Rows [10], Affected Rows [10], Applied Rows [10], Rejected Rows [0]
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [EE] (Instance Name: [EE])
+	 Output Rows [9], Affected Rows [9], Applied Rows [9], Rejected Rows [0]
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [OTHER_BRANCH] (Instance Name: [OTHER_BRANCH])
+	 Output Rows [9], Affected Rows [9], Applied Rows [9], Rejected Rows [0]
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-09 19:19:38 : INFO : (16292 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_Router] completed at [Sat Mar 09 19:19:38 2024].

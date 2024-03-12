@@ -1,0 +1,153 @@
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_M_Union] at [Sun Mar 10 13:41:58 2024].
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_M_Union] Run Instance Name: [] Run Id: [277]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: M_Union.
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_M_Union] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-10 13:41:58 : INFO : (2988 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_M_Union]
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : FR_3118 : source [SQ_Administration] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [7].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3118 : source [SQ_HR] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [8].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_3_1] has the ID [9].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3118 : source [SQ_Sales] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_3_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_3_1] has the ID [10].
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [11].
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table Target_Union :Writing output to: F:\VARMA\IT_Transition\ETL\Transformation\Union\target_union.csv
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8222 : Target file [F:\VARMA\IT_Transition\ETL\Transformation\Union\target_union.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [Target_Union]
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sun Mar 10 13:41:58 2024
+
+Target tables:
+
+     Target_Union
+
+
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3119 : Metadata column name [FIELD_#EMPLOYEE_ID] does not match with source column name [#EMPLOYEE_ID,FIRST_NAME,LAST_NAME,PHONE_NUMBER,HIRE_DATE,SALARY,DEPARTMENT_Name].
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_1_1) : (IS | is) : node01 : FR_3119 : Metadata column name [FIELD_#EMPLOYEE_ID] does not match with source column name [#EMPLOYEE_ID,FIRST_NAME,LAST_NAME,PHONE_NUMBER,HIRE_DATE,SALARY,DEPARTMENT_Name].
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_1_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3119 : Metadata column name [FIELD_#EMPLOYEE_ID] does not match with source column name [#EMPLOYEE_ID,FIRST_NAME,LAST_NAME,PHONE_NUMBER,HIRE_DATE,SALARY,DEPARTMENT_Name].
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\Transformation\TCT\Sales.csv] : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : WARNING : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\Transformation\TCT\Administration.csv] : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [9], field [FIRST_NAME]: Data [Christopher] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [2] rows, read [0] error rows for source table [Administration] instance name [Administration]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [1], field [LAST_NAME]: Data [Russell] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\Transformation\TCT\Human Resources.csv] : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Administration]. Total errors [0] 
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [2], field [LAST_NAME]: Data [Partners] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : FR_3015 : Warning! Row [1], field [DEPARTMENT_Name]: Data [Human Resources] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [3], field [LAST_NAME]: Data [Errazuriz] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [4], field [LAST_NAME]: Data [Cambrault] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : BLKR_16019 : Read [1] rows, read [0] error rows for source table [Administration] instance name [Administration1]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [5], field [LAST_NAME]: Data [Zlotkey] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_2_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [7], field [LAST_NAME]: Data [Bernstein] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_HR]. Total errors [0] 
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [10], field [LAST_NAME]: Data [Cambrault] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [11], field [LAST_NAME]: Data [Tuvault] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [18], field [LAST_NAME]: Data [Vishney] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [20], field [LAST_NAME]: Data [Marvins] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [33], field [LAST_NAME]: Data [Livingston] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : FR_3015 : Warning! Row [34], field [LAST_NAME]: Data [Johnson] was truncated.
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : BLKR_16019 : Read [34] rows, read [0] error rows for source table [Administration] instance name [Administration2]
+2024-03-10 13:41:58 : INFO : (2988 | READER_1_3_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-10 13:41:58 : INFO : (2988 | TRANSF_1_3_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Sales]. Total errors [0] 
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [Target_Union] at: Sun Mar 10 13:41:58 2024
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [Target_Union] at: Sun Mar 10 13:41:58 2024
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Sun Mar 10 13:41:58 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Target_Union (Instance Name: [Target_union])
+WRT_8038 Inserted rows - Requested: 37         Applied: 37         Rejected: 0          Affected: 37        
+
+
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-10 13:41:58 : INFO : (2988 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Administration] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Administration] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_HR] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_HR] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_3_1] created for [the read stage] of partition point [SQ_Sales] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_3_1] created for [the transformation stage] of partition point [SQ_Sales] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Target_union] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [12].
+2024-03-10 13:41:58 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Sun Mar 10 13:41:58 2024)
+2024-03-10 13:41:58 : INFO : (2988 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-10 13:41:59 : INFO : (2988 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_Administration] (Instance Name: [SQ_Administration])
+	 Output Rows [2], Affected Rows [2], Applied Rows [2], Rejected Rows [0]
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_HR] (Instance Name: [SQ_HR])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_Sales] (Instance Name: [SQ_Sales])
+	 Output Rows [34], Affected Rows [34], Applied Rows [34], Rejected Rows [0]
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [Target_Union] (Instance Name: [Target_union])
+	 Output Rows [37], Affected Rows [37], Applied Rows [37], Rejected Rows [0]
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-10 13:41:59 : INFO : (2988 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_M_Union] completed at [Sun Mar 10 13:41:59 2024].

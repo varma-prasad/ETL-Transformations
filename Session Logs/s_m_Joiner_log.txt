@@ -1,0 +1,147 @@
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_m_Joiner] at [Sat Mar 09 19:17:04 2024].
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_m_Joiner] Run Instance Name: [] Run Id: [262]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: m_Joiner.
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_m_Joiner] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-09 19:17:04 : INFO : (13788 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : DBG_21694 : JNRTRANS Partition [0]: Index cache size = [141611895], Data cache size = [283223790]
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TT_11098 : The Joiner transformation [JNRTRANS] is configured with the join algorithm: Nested-Loop.
+2024-03-09 19:17:04 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_m_Joiner]
+2024-03-09 19:17:04 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-09 19:17:04 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Sat Mar 09 19:17:04 2024)
+2024-03-09 19:17:04 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-09 19:17:04 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [T_EMP1]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-09 19:17:04 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [T_EMP1] [instance id:23]
+2024-03-09 19:17:04 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [T_EMP1] [instance id:23] determined successfully
+2024-03-09 19:17:04 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [T_EMP1]. : (Sat Mar 09 19:17:04 2024)
+2024-03-09 19:17:05 : INFO : (13788 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [T_EMP1] succeeded. : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-09 19:17:05 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : FR_3118 : source [SQ_Department] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [7].
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [8].
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8146 : Writer: Target is database [xepdb1], user [core], bulk mode [ON]
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8106 : Warning! Bulk Mode session - recovery is not guaranteed.
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table T_EMP1 :SQL INSERT statement:
+INSERT INTO T_EMP1(EMPLOYEE_ID,E_NAME,DEPARTMENT_ID,DEPTNAME)  VALUES ( ?, ?, ?, ?) 
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [T_EMP1]. UPDATEs Not Supported.
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [T_EMP1]
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sat Mar 09 19:17:05 2024
+
+Target tables:
+
+     T_EMP1
+
+
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQ_S_EMP] SQL Query [SELECT S_EMP.EMPLOYEE_ID, S_EMP.E_NAME, S_EMP.SALARY, S_EMP.DEPARTMENT_ID FROM S_EMP]
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : BLKR_16019 : Read [6] rows, read [0] error rows for source table [S_EMP] instance name [S_EMP]
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_2_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-09 19:17:05 : WARNING : (13788 | READER_1_1_1) : (IS | is) : node01 : FR_3119 : Metadata column name [DEPARTMENT_ID] does not match with source column name [DEPARTMENT_ID,DEPARTMENT_NAME].
+2024-03-09 19:17:05 : WARNING : (13788 | READER_1_1_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Informatica\10.2.0\server\Tutorials\Dep.csv] : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [27] rows, read [0] error rows for source table [Department] instance name [Department]
+2024-03-09 19:17:05 : INFO : (13788 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS] from [141611895] to [141612000].
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS] from [283223790] to [283224008].
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR39_22_0_262.dat] and index file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR39_22_0_262.idx] for Joiner [JNRTRANS].
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Department]. Total errors [0] 
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1795 : The index cache size that would hold [27] input rows from the master for [JNRTRANS], in memory, is [2000] bytes
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [T_EMP1] at: Sat Mar 09 19:17:05 2024
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1794 : The data cache size that would hold [27] input rows from the master for [JNRTRANS], in memory, is [1608] bytes
+2024-03-09 19:17:05 : INFO : (13788 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_S_EMP]. Total errors [0] 
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [T_EMP1] at: Sat Mar 09 19:17:05 2024
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Sat Mar 09 19:17:05 2024
+===================================================
+
+WRT_8036 Target: T_EMP1 (Instance Name: [T_EMP1])
+WRT_8038 Inserted rows - Requested: 5          Applied: 5          Rejected: 0          Affected: 5         
+
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Sat Mar 09 19:17:05 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: T_EMP1 (Instance Name: [T_EMP1])
+WRT_8038 Inserted rows - Requested: 5          Applied: 5          Rejected: 0          Affected: 5         
+
+
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-09 19:17:05 : INFO : (13788 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Department] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Department] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_S_EMP] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_S_EMP] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [T_EMP1] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [10].
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Sat Mar 09 19:17:05 2024)
+2024-03-09 19:17:05 : INFO : (13788 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR39_22_0_262.dat] for transformation [JNRTRANS].
+2024-03-09 19:17:05 : INFO : (13788 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR39_22_0_262.idx] for transformation [JNRTRANS].
+2024-03-09 19:17:06 : INFO : (13788 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_Department] (Instance Name: [SQ_Department])
+	 Output Rows [27], Affected Rows [27], Applied Rows [27], Rejected Rows [0]
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_S_EMP] (Instance Name: [SQ_S_EMP])
+	 Output Rows [6], Affected Rows [6], Applied Rows [6], Rejected Rows [0]
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [T_EMP1] (Instance Name: [T_EMP1])
+	 Output Rows [5], Affected Rows [5], Applied Rows [5], Rejected Rows [0]
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-09 19:17:07 : INFO : (13788 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_m_Joiner] completed at [Sat Mar 09 19:17:07 2024].

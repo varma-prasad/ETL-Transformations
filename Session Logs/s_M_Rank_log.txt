@@ -1,0 +1,143 @@
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_M_Rank] at [Sun Mar 10 16:41:18 2024].
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_M_Rank] Run Instance Name: [] Run Id: [278]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: M_Rank.
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_M_Rank] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-10 16:41:18 : INFO : (5452 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : DBG_21694 : RNKTRANS Partition [0]: Index cache size = [141611895], Data cache size = [283223790]
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [RNKTRANS] from [141611895] to [141612688].
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [RNKTRANS] from [283223790] to [283224080].
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7029 : Aggregate Information: Creating New Index and Data Files
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7034 : Aggregate Information: Index file is [C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.idx]
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TE_7035 : Aggregate Information: Data file is [C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.dat]
+2024-03-10 16:41:18 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_M_Rank]
+2024-03-10 16:41:18 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-10 16:41:18 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Sun Mar 10 16:41:18 2024)
+2024-03-10 16:41:18 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-10 16:41:18 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [Target_Rank]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-10 16:41:18 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [Target_rank] [instance id:5]
+2024-03-10 16:41:18 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [Target_rank] [instance id:5] determined successfully
+2024-03-10 16:41:18 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [Target_rank]. : (Sun Mar 10 16:41:18 2024)
+2024-03-10 16:41:19 : INFO : (5452 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [Target_rank] succeeded. : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-10 16:41:19 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-10 16:41:19 : INFO : (5452 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-10 16:41:19 : INFO : (5452 | TRANSF_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [7].
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [8].
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2088]).
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table Target_rank :SQL INSERT statement:
+INSERT INTO Target_rank(EMPLOYEE_ID,FIRST_NAME,LAST_NAME,HIRE_DATE,JOB_ID,SALARY,DEPARTMENT_ID)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [Target_rank]. UPDATEs Not Supported.
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [Target_rank]
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sun Mar 10 16:41:19 2024
+
+Target tables:
+
+     Target_rank
+
+
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQTRANS] SQL Query [SELECT EMPLOYEES.EMPLOYEE_ID, EMPLOYEES.FIRST_NAME, EMPLOYEES.LAST_NAME, EMPLOYEES.HIRE_DATE, EMPLOYEES.JOB_ID, EMPLOYEES.SALARY, EMPLOYEES.DEPARTMENT_ID FROM EMPLOYEES]
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [107] rows, read [0] error rows for source table [EMPLOYEES] instance name [EMPLOYEES]
+2024-03-10 16:41:19 : INFO : (5452 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-10 16:41:19 : INFO : (5452 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQTRANS]. Total errors [0] 
+2024-03-10 16:41:19 : INFO : (5452 | TRANSF_1_2_1) : (IS | is) : node01 : TE_7032 : The B-Tree being managed in files
+C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.dat for Data and
+
+C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.idx for Index has:
+	Index Size:	11
+	Row Size:	168
+	Order:		100
+	Minimum Order:	50
+	Height:		1
+	Entries:	11
+	IndexPageSize:	2296
+	IndexPages:	61678
+	DataPageSize:	680
+	DataPages:	416506
+
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [Target_rank] at: Sun Mar 10 16:41:19 2024
+2024-03-10 16:41:19 : INFO : (5452 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [RNKTRANS]. Total errors [0] 
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [Target_rank] at: Sun Mar 10 16:41:19 2024
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Sun Mar 10 16:41:19 2024
+===================================================
+
+WRT_8036 Target: Target_rank (Instance Name: [Target_Rank])
+WRT_8038 Inserted rows - Requested: 11         Applied: 11         Rejected: 0          Affected: 11        
+
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Sun Mar 10 16:41:19 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Target_rank (Instance Name: [Target_Rank])
+WRT_8038 Inserted rows - Requested: 11         Applied: 11         Rejected: 0          Affected: 11        
+
+
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-10 16:41:19 : INFO : (5452 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQTRANS] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQTRANS] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [RNKTRANS] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Target_Rank] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-10 16:41:19 : INFO : (5452 | MAPPING) : (IS | is) : node01 : CMN_1791 : The index cache size that would hold [11] aggregate groups of input rows for [RNKTRANS], in memory, is [2296] bytes
+2024-03-10 16:41:19 : INFO : (5452 | MAPPING) : (IS | is) : node01 : CMN_1790 : The data cache size that would hold [11] aggregate groups of input rows for [RNKTRANS], in memory, is [2040] bytes
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [9].
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Sun Mar 10 16:41:19 2024)
+2024-03-10 16:41:19 : INFO : (5452 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.idx] for transformation [RNKTRANS].
+2024-03-10 16:41:19 : INFO : (5452 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMAGG78_3_0_278.dat] for transformation [RNKTRANS].
+2024-03-10 16:41:20 : INFO : (5452 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQTRANS] (Instance Name: [SQTRANS])
+	 Output Rows [107], Affected Rows [107], Applied Rows [107], Rejected Rows [0]
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [Target_rank] (Instance Name: [Target_Rank])
+	 Output Rows [11], Affected Rows [11], Applied Rows [11], Rejected Rows [0]
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-10 16:41:20 : INFO : (5452 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_M_Rank] completed at [Sun Mar 10 16:41:20 2024].
