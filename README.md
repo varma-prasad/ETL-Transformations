@@ -19,8 +19,8 @@ Essential Transformations used in the ETL Pipeline
 ## Overview
 
 ETL Transformations is essential for unlocking Data Insights and crucial for Enhanced Analytics.\
-Designe, Develope and Data validation of several Transformations, which are crucial for ETL Pipeline.\
-Transformations are Designed and Developed with the Help of Informatica Powercenter
+Design, Develope and Data validation of several Transformations are performed, which are crucial for ETL Pipeline.\
+Transformations are Designed and Developed with the Help of Informatica Powercenter.
 
 
 ## Transaction Control Transformation
