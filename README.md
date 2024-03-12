@@ -8,8 +8,13 @@ Essential Transformations used in the ETL Pipeline
 * [Sequence Generator Transformation](#sequence-generator-transformation)
 * [Update Strategy Transformation](#update-strategy-transformation)
 * [Union Transformation](#union-transformation)
-* [Normaliser Transformation](#Normaliser-transformation)
-
+* [Normaliser Transformation](#normaliser-transformation)
+* [Rank Transformation](#rank-transformation)
+* [Sorter Transformation](#sorter-transformation)
+* [Aggregator Transformation](#aggregator-transformation)
+* [Router Transformation](#router-transformation)
+* [Joiner Transformation](#joiner-transformation)
+* [Look up Transformation](#look-up-transformation)
 
 ## Overview
 
@@ -115,6 +120,122 @@ Designe, Develope and Data validation of several Transformations, which are cruc
 •	Check target for data quality, completeness and correctness.
 
 ![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/85f3ec03-ed5c-4419-b7ec-c1dac529bacd)
+
+## Rank Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Rank transformation is used to get the records based on the rank defined at the port level in Informatica Designer\
+•	Bottom or Top options can be selected to get Ascending or Descending values.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/bf7c028f-91e8-4ad8-b5de-67adf115bd81)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target \
+•	Check target for data quality, completeness and correctness.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/fec0cba5-be27-49aa-a89a-898102a436b6)
+
+
+## Sorter Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Expression transformation used to transform data in to the necessary format\
+•	Sorter transformation is used to input the data of a column in ascending or Descending order.\
+•	Select the keys of a column to sort in ascending or descending.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/0ed5d116-90e0-48da-9957-52bcf69af3e8)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target with necessary SQL Queries\
+•	Check Weather the data is sorted in the Target Tables
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/bb46e84b-6215-4399-b6bf-b2bd5c331f8c)
+
+## Aggregator Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Aggregator Transformation is used to Group data and perform aggregator functions on the data
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/f9825129-1d01-4e59-806b-ef86ea062867)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target with necessary SQL Queries\
+•	Check all the target files for data quality, completeness and correctness.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/b4d17cee-68ec-436c-843f-09a4e6ebe191)
+
+## Router Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Router Transformation is used to Route the data according to the groups formed based on the condition specified
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target with necessary SQL Queries\
+•	Check all the target tables for data quality, completeness and correctness.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/2a073891-c183-405e-a447-591ca97ea6a2)
+
+## Joiner Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Joiner Transformation is performed when data extracted from two different sources.\
+•	Joining condition can be Normal join, Master outer/ Detail outer or Full outer join (inner, left, right, Full outer joins)\
+•	Master Table – Less Records, Detail Table – More Records
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/a73aa9e6-c04a-4c74-92b5-e3abf012a78d)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target with necessary SQL Queries\
+•	Check all the target tables for data quality, completeness and correctness.\
+•	Use Minus queries to check for truncation of data
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/0b79e513-c210-433f-a5b6-29782eb218c0)
+
+## Look up Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Lookup Transformation is performed on a lookup table, it can be connected or unconnected transformation.\
+•	If Lookup is connected in the data flow, then it is connected. Or else it is unconnected. Connected LKP can return more than one column but unconnected Lookup returns only one column values\
+•	Look up transformation by default provides Left outer join and it provides option with (<,>, =, =) operators while specifying joining condition
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/82896362-3610-4f9a-a496-6977d17d0b41)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target with necessary SQL Queries\
+•	Check Lookup column values for null values\
+•	Check all the target tables for data quality, completeness and correctness.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/6695a74c-143e-4235-8b9c-599125cacfd1)
 
 
 
