@@ -19,7 +19,8 @@ Essential Transformations used in the ETL Pipeline
 ## Overview
 
 ETL Transformations is essential for unlocking Data Insights and crucial for Enhanced Analytics.\
-Designe, Develope and Data validation of several Transformations, which are crucial for ETL Pipeline.
+Designe, Develope and Data validation of several Transformations, which are crucial for ETL Pipeline.\
+Transformations are Designed and Developed with the Help of Informatica Powercenter
 
 
 ## Transaction Control Transformation
@@ -236,6 +237,23 @@ Designe, Develope and Data validation of several Transformations, which are cruc
 •	Check all the target tables for data quality, completeness and correctness.
 
 ![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/6695a74c-143e-4235-8b9c-599125cacfd1)
+
+----
+
+## 🛠 Tools used
+![](https://img.shields.io/badge/Informatica_Powercenter-v10.2.0-orange)
+![](https://img.shields.io/badge/Oracle_Database_21c-v21.1.0-blue)
+
+## Authors
+
+- [Varma Prasad S](https://github.com/varma-prasad)
+
+## 🛠 Skills
+SQL, ETL, Python, Power BI...
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varma-prasad-s/)
 
 
 
