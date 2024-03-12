@@ -8,6 +8,7 @@ Essential Transformations used in the ETL Pipeline
 * [Sequence Generator Transformation](#sequence-generator-transformation)
 * [Update Strategy Transformation](#update-strategy-transformation)
 * [Union Transformation](#union-transformation)
+* [Normaliser Transformation](#Normaliser-transformation)
 
 
 ## Overview
@@ -96,5 +97,24 @@ Designe, Develope and Data validation of several Transformations, which are cruc
 •	Check all the target files for data quality, completeness and correctness.
 
 ![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/6226e994-61b0-4f14-8552-e9c2803fad2d)
+
+## Normaliser Transformation
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Normaliser Transformation is used to UNPVOT the table data. GCID (Generated Column ID) and GK (Generated Key) helps to transform the data.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/cf69f701-dd34-4bb5-bc61-cedc6da02fa4)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Validate source and target \
+•	Check target for data quality, completeness and correctness.
+
+![image](https://github.com/varma-prasad/ETL-Transformations/assets/108605375/85f3ec03-ed5c-4419-b7ec-c1dac529bacd)
+
 
 
