@@ -15,6 +15,7 @@ Essential Transformations used in the ETL Pipeline
 *   [Router Transformation](#router-transformation)
 *   [Joiner Transformation](#joiner-transformation)
 *   [Look up Transformation](#look-up-transformation)
+*   [Author Details](#authors)
 
 ## Overview
 
