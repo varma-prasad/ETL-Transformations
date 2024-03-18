@@ -3,19 +3,19 @@ Essential Transformations used in the ETL Pipeline
 
 ## Table of Contents
 
-*   [Overview](#overview)
-*   [Transaction Control Transformation](#transaction-control-transformation)
-*   [Sequence Generator Transformation](#sequence-generator-transformation)
-*   [Update Strategy Transformation](#update-strategy-transformation)
-*   [Union Transformation](#union-transformation)
-*   [Normaliser Transformation](#normaliser-transformation)
-*   [Rank Transformation](#rank-transformation)
-*   [Sorter Transformation](#sorter-transformation)
-*   [Aggregator Transformation](#aggregator-transformation)
-*   [Router Transformation](#router-transformation)
-*   [Joiner Transformation](#joiner-transformation)
-*   [Look up Transformation](#look-up-transformation)
-*   [Author Details](#authors)
+* [Overview](#overview)
+* [Transaction Control Transformation](#transaction-control-transformation)
+* [Sequence Generator Transformation](#sequence-generator-transformation)
+* [Update Strategy Transformation](#update-strategy-transformation)
+* [Union Transformation](#union-transformation)
+* [Normaliser Transformation](#normaliser-transformation)
+* [Rank Transformation](#rank-transformation)
+* [Sorter Transformation](#sorter-transformation)
+* [Aggregator Transformation](#aggregator-transformation)
+* [Router Transformation](#router-transformation)
+* [Joiner Transformation](#joiner-transformation)
+* [Look up Transformation](#look-up-transformation)
+* [Author Details](#authors)
 
 ## Overview
 
